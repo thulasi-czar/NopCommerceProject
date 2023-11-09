@@ -1,0 +1,1 @@
+pytest .\testcases\ --html=".\\Reports\\Html_Reports\\ReportOne.html" --alluredir=".\\Reports\\Allure_Reports\\ReportOne" --browser=chrome
