@@ -1,0 +1,2 @@
+[32mINFO    [0m utilities.custom_Logger:test_login.py:20 ************* login with valid credentials ---started **************
+[32mINFO    [0m utilities.custom_Logger:test_login.py:29 ********** login with valid credentials test case is passed ************

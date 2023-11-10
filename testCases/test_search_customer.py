@@ -4,6 +4,7 @@ from pageObjects.add_customer_page import AddCustomer
 from pageObjects.search_customer_page import SearchCustomer
 from utilities.read_Configurations import ReadConfig
 from utilities.custom_Logger import GenerateLogger
+import allure
 
 @pytest.mark.usefixtures("setupAndteardown")
 class Test_003_SearchCustomer:
@@ -11,6 +12,8 @@ class Test_003_SearchCustomer:
     logger = GenerateLogger.gen_logs()
     logger.info("************** Test 003 Search Customer *****************")
 
+    @pytest.mark.sanity
+    @allure.severity(allure.severity_level.NORMAL)
     def test_search_customer_by_email(self):
         self.logger.info("************** test search customer by email id --started *****************")
         BaseClass(self.driver)

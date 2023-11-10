@@ -1,0 +1,2 @@
+[32mINFO    [0m utilities.custom_Logger:test_search_customer.py:18 ************** test search customer by email id --started *****************
+[32mINFO    [0m utilities.custom_Logger:test_search_customer.py:35 ************** test search customer by email id Failed *****************

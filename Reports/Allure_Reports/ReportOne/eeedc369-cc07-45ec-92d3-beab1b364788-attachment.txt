@@ -1,0 +1,2 @@
+[32mINFO    [0m utilities.custom_Logger:test_add_customer.py:24 *************** test case add customer with entering all fields is --started ***************
+[32mINFO    [0m utilities.custom_Logger:test_add_customer.py:46 *************** test case add customer with entering all fields is Passed ***************
